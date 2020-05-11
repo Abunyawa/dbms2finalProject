@@ -1,0 +1,222 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(270deg, #00ffef, #ff00c4);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#headingBlock {
+    padding-top: 10px;
+    -webkit-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    text-align: center;
+    width: 40vw;
+    height: 20vh;
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 10vh;
+    margin-left: 30vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: violet;
+    font-size: 25px;
+    transition: ease-in-out 0.2s;
+}
+
+#taskBlock {
+    -webkit-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    text-align: center;
+    width: 30vw;
+    height: 50vh;
+    background-color: rgba(255,255,255,0.95);
+    margin-top: 5vh;
+    padding-bottom: 15px;
+    margin-left: 35vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+form {
+    -webkit-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    text-align: center;
+    width: 30vw;
+    height: 50vh;
+    background-color: rgba(255,255,255,0.95);
+    margin-top: 5vh;
+    margin-left: 35vw;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#task1Block {
+    text-align: center;
+    width: 30vw;
+    background-color: rgba(255,255,255,0.95);
+    margin-top: 5vh;
+    padding-top: 15px;
+    margin-left: 35vw;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+}
+#taskTitle{
+    margin: 10px;
+}
+#cell{
+    margin: 5px;
+}
+
+#task3Block {
+    -webkit-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    box-shadow: 11px 16px 23px 2px rgba(0,0,0,0.69);
+    text-align: center;
+    width: 60vw;
+    background-color: rgba(255,255,255,0.95);
+    margin-top: 5vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20vw;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.uncklickable{
+    text-decoration: line-through;
+}
+
+
+h1 {
+  text-align:center;
+}
+
+h1 span {
+    color: violet;
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  -webkit-animation: bounce .3s ease infinite alternate;
+          animation: bounce .3s ease infinite alternate;
+  font-size: 20px;
+  line-height:55px;
+  text-shadow: 0 1px 0 transparent,
+               0 2px 0 transparent,
+               0 3px 0 transparent,
+               0 4px 0 transparent,
+               0 5px 0 transparent,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+			   0 10px 0 transparent,
+               0 11px 0 transparent,
+               0 12px 0 transparent,
+               0 13px 0 transparent,
+			   0 14px 0 transparent,
+               0 15px 0 transparent;
+}
+h1 span:nth-child(1) { -webkit-animation-delay: .2s; animation-delay: .2s; }
+h1 span:nth-child(2) { -webkit-animation-delay: .3s; animation-delay: .3s; }
+h1 span:nth-child(3) { -webkit-animation-delay: .4s; animation-delay: .4s; }
+h1 span:nth-child(4) { -webkit-animation-delay: .5s; animation-delay: .5s; }
+h1 span:nth-child(5) { -webkit-animation-delay: .6s; animation-delay: .6s; }
+h1 span:nth-child(6) {  -webkit-animation-delay: .1s; animation-delay: .1s; }
+h1 span:nth-child(7) {  -webkit-animation-delay: .2s; animation-delay: .2s; }
+h1 span:nth-child(8) { -webkit-animation-delay: .3s; animation-delay: .3s; }
+h1 span:nth-child(9) { -webkit-animation-delay: .4s; animation-delay: .4s; }
+h1 span:nth-child(10) { -webkit-animation-delay: .5s; animation-delay: .5s; }
+h1 span:nth-child(11) { -webkit-animation-delay: .6s; animation-delay: .6s; }
+h1 span:nth-child(12) { -webkit-animation-delay: .7s; animation-delay: .7s; }
+h1 span:nth-child(13) { -webkit-animation-delay: .8s; animation-delay: .8s; }
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 transparent,
+                 0 2px 0 transparent,
+                 0 3px 0 transparent,
+                 0 4px 0 transparent,
+                 0 5px 0 transparent,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+				 0 10px 0 transparent,
+               0 11px 0 transparent,
+               0 12px 0 transparent,
+               0 13px 0 transparent,
+			   0 14px 0 transparent,
+               0 15px 0 transparent;
+  }
+}
+
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 transparent,
+                 0 2px 0 transparent,
+                 0 3px 0 transparent,
+                 0 4px 0 transparent,
+                 0 5px 0 transparent,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+				  0 10px 0 transparent,
+               0 11px 0 transparent,
+               0 12px 0 transparent,
+               0 13px 0 transparent,
+			   0 14px 0 transparent,
+               0 15px 0 transparent;
+  }
+}

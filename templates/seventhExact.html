@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" type = 'text/css' href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="task3Block">
+        <h1 id="taskTitle">Seventh task</h1>
+        <div id = 'cell'>{{ year }} term {{ term }}</div>
+        <div id = 'cell'>Teacher: {{ empId }}</div>
+        <div id="cell">Lessons for this term</div>
+        {% for i in obj %}
+            <div id="cell">{{ i.3 }} - {{ i.4 }}</div>
+        {% endfor %}
+</div>
+</body>
+</html>

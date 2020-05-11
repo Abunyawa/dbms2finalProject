@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" type = 'text/css' href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="task1Block">
+        <h1 id="taskTitle">Sixth task</h1>
+        <div id = 'cell'>{{ obj.0.1 }} term {{ obj.0.2 }}</div>
+        <div id = 'cell'>Teacher: {{ obj.0.0 }}</div>
+        <div id="cell">Sum of hours for this term</div>
+        <div id="cell">{{ obj.0.3 }} hours</div>
+
+</div>
+
+
+</body>
+</html>

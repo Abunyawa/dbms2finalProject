@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <link rel="stylesheet" type = 'text/css' href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "headingBlock">
+        <h1 id="headingTitle">
+            <span style="color:orange">D</span>
+            <span style="color:yellow">B</span>
+            <span style="color:green">M</span>
+            <span style="color:skyblue">S</span>
+            <span style="color:blue">2</span>
+            <br>
+            <span style="color:red">p</span>
+            <span style="color:orange">r</span>
+            <span style="color:yellow">o</span>
+            <span style="color:green">j</span>
+            <span style="color:skyblue">e</span>
+            <span style="color:blue">c</span>
+            <span style="color:purple">t</span>
+        </h1>
+        <div style="color:white">Prepared by Abu and Madi</div>
+    </div>
+    <div id = 'taskBlock'>
+        <h1 id="taskTitle">TASKS</h1>
+        <a href="{% url 'first' %}">first</a>
+        <a href="{% url 'second' %}">second</a>
+        <a href="{% url 'third' %}">third</a>
+        <a href="{% url 'sorry' %}" class="uncklickable">fourth</a>
+        <a href="{% url 'fifth' %}">fifth</a>
+        <a href="{% url 'sixth' %}">sixth</a>
+        <a href="{% url 'seventh' %}">seventh</a>
+        <a href="{% url 'eighth' %}">eighth</a>
+        <a href="{% url 'nineth' %}">nineth</a>
+        <a href="{% url 'sorry' %}" class="uncklickable">tenth</a>
+        <a href="{% url 'sorry' %}" class="uncklickable">eleventh</a>
+        <a href="{% url 'sorry' %}" class="uncklickable">twelveth</a>
+        <a href="{% url 'thirteenth' %}">thirteenth</a>
+    </div>
+</body>
+</html>

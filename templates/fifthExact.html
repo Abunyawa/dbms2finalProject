@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <link rel="stylesheet" type = 'text/css' href="{% static 'css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="task1Block">
+        <h1 id="taskTitle">Fifth task</h1>
+        <div id = 'cell'>{{ year }} term {{ term }}</div>
+        <div id = 'cell'>{{ stud_id }}</div>
+        <div id="cell">Sum of retakes this term</div>
+        <div id="cell">{{ priceSem }}</div>
+        <div id="cell">Total sum of retakes</div>
+        <div id="cell">{{ priceTot }}</div>
+
+    </div>
+<div>
+</body>
+</html>
